@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body {
+    color: #505962;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-light:hover,
+.navbar-nav:hover,
+.nav-link:hover
+.dropdown-item:hover{
+    color: #000033 !important;
+}
+.navbar-dark.active,
+.navbar-nav.active,
+.nav-link.active 
+.dropdown-item.active,.active{
+    color: #000033 !important;
+}
+.line{
+    border-top: .05rem solid grey;
+}
+.page h1{
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: #330033;
+}
+footer{
+    background-color: #000033;
+    color: white;
+    padding: 1rem 0;
+}
+footer a{
+    color: white !important;
+}
+footer i{
+    font-size: 1.6rem;
+    margin: 0.5rem .5rem 0 0;
+}
+hr.socket{
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}
+footer .lead{
+    margin-bottom: -10px;
+}
+.size_ex {
+    font-size: 100px;
+    color: #990033;
+    font-family: 'Kaushan', sans-serif ;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.btn-primary{
+    background-color: #330033 !important;
+    border-color: #330033 !important;
+}
+.btn-primary:hover{
+    background-color: #990033 !important;
+}
+.card-seq{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+}
+.rem-card{
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 30px;
+}
+.dropdown-item.active{
+    background-color: #330033 !important;
+    color: white !important;
+}
+.dropdown-item:focus, .dropdown-item:hover{  
+    background-color: #330033 !important;
+    color:  white !important;
+}
+.mid-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mid-content h4{
+    text-align: justify;
+}
+@media screen and (max-width:730px){
+.card{
+    width: 35rem !important;
+    height: auto;
+}
+.size_ex{
+    font-size: 60px;
+}
+.page h1{
+    letter-spacing: 3px;
+}
+.mid-content img{
+    width: 300px;
+}
+.mid-content h4{
+    text-align: center;
+}
+}
+@media screen and (max-width:360px){
+.size_ex{
+    margin-top: 150px;
+    font-size: 30px;
+    margin-bottom: 150px ;
+}
+.card{
+    height: auto !important;
+    min-width: 20rem !important;
+}
+.page h1{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.mid-content img{
+    width: 200px;
+}
+}
